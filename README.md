@@ -1,5 +1,5 @@
 # Build Your Team
-![picture of application]('./images/buildYour.PNG')
+![picture of application](./images/buildYour.PNG)
 ## Description
 This project let you answer a couple questions about your current teama dn turn it into a HTML web page with their necessary information.
 
