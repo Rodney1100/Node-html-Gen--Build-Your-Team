@@ -17,8 +17,8 @@ const generateEmployee = (employeeArr) => {
                 <li class="list-group-item">Office Number: ${office}</li>
             </ul>
         </div>
-       ` 
-      })}
+       ` ;
+      }).join('')}
     ${employeeArr
       .filter(({ github }) => github)
       .map(({ name, email, id, github }) => {
@@ -32,8 +32,8 @@ const generateEmployee = (employeeArr) => {
             <li class="list-group-item">Github: <a class="underline" href="https://github.com/${github}" target="_blank">${github}</a></li>
          </ul>
         </div>
-        `
-      })}
+        `;
+      }).join('')}
     ${employeeArr
       .filter(({ school }) => school)
       .map(({ name, email, id, school }) => {
@@ -47,8 +47,8 @@ const generateEmployee = (employeeArr) => {
             <li class="list-group-item">School: ${school}</li>
         </ul>
         </div>
-          `
-      })}
+          `;
+      }).join('')}
 `;
 };
 
